@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact — ISN Group</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="logo">
+            <svg class="site-logo-icon" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6 4H26V18C26 23.5 16 28 16 28C16 28 6 23.5 6 18V4Z" stroke="#C9A227" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M11 10H21" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+                <path d="M11 15H21" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+                <path d="M11 20H17" stroke="#C9A227" stroke-width="2" stroke-linecap="round"/>
+                <circle cx="21" cy="20" r="1.5" fill="#C9A227"/>
+            </svg>
+            <span>ISN GROUP</span>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="a-propos.html">À propos</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="page-hero">
+            <span class="hero-badge">Un projet ?</span>
+            <h1>Discutons de vos besoins informatiques</h1>
+            <p>Remplissez le formulaire ci-dessous — réponse garantie sous 2h.</p>
+        </section>
+
+        <section class="contact-page">
+            <div class="contact-layout">
+
+                <!-- Formulaire -->
+                <form class="contact-form" onsubmit="event.preventDefault(); alert('Message envoyé ! (Simulation)');">
+                    <div class="form-group">
+                        <label for="name">Nom / Entreprise</label>
+                        <input type="text" id="name" required placeholder="Votre nom ou raison sociale">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Adresse Email</label>
+                        <input type="email" id="email" required placeholder="votre@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="sujet">Sujet</label>
+                        <input type="text" id="sujet" placeholder="Ex : Devis assemblage PC, panne serveur…">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Votre Message</label>
+                        <textarea id="message" rows="6" required placeholder="Décrivez votre besoin en quelques lignes…"></textarea>
+                    </div>
+                    <button type="submit" class="btn-gold">Envoyer la demande</button>
+                </form>
+
+                <!-- Informations pratiques -->
+                <div class="contact-info">
+
+                    <div class="info-block">
+                        <span class="info-block-icon">📍</span>
+                        <h3>Zone d'intervention</h3>
+                        <ul>
+                            <li>Interventions sur site dans un rayon de 50 km</li>
+                            <li>Télémaintenance disponible partout en France (VPN, TeamViewer)</li>
+                            <li>Déplacements étendus sur devis pour projets d'envergure</li>
+                        </ul>
+                        <span class="info-badge">Déplacement gratuit — 30 km</span>
+                    </div>
+
+                    <div class="info-block">
+                        <span class="info-block-icon">🕐</span>
+                        <h3>Horaires du support</h3>
+                        <ul>
+                            <li>Lundi – Vendredi : 9h00 – 18h00</li>
+                            <li>Samedi : 10h00 – 13h00 (sur rendez-vous)</li>
+                            <li>Urgences critiques : 24h/7j pour les clients sous contrat MSP</li>
+                        </ul>
+                        <span class="info-badge">Fermé les jours fériés</span>
+                    </div>
+
+                    <div class="info-block">
+                        <span class="info-block-icon">⚡</span>
+                        <h3>Notre réactivité</h3>
+                        <ul>
+                            <li>Réponse initiale garantie sous <strong style="color:var(--gold)">2h</strong> en heures ouvrées</li>
+                            <li>Diagnostic technique complet sous <strong style="color:var(--gold)">24h</strong></li>
+                            <li>Devis détaillé remis sous <strong style="color:var(--gold)">48h</strong></li>
+                        </ul>
+                        <span class="info-badge">Premier diagnostic gratuit</span>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-main">
+            <div class="footer-col">
+                <span class="footer-brand">ISN GROUP</span>
+                <p>Support &amp; expertise informatique de proximité. Assemblage haute performance, maintenance hardware et services managés pour professionnels et particuliers.</p>
+            </div>
+            <div class="footer-col">
+                <span class="footer-col-title">Navigation</span>
+                <ul class="footer-nav">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="a-propos.html">À propos</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <span class="footer-col-title">Légal &amp; Contact</span>
+                <ul class="footer-nav">
+                    <li><a href="mentions-legales.html">Mentions légales</a></li>
+                    <li><a href="contact.html">Formulaire de contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 ISN Group — Support &amp; Expertise IT — Tous droits réservés</p>
+        </div>
+    </footer>
+
+</body>
+</html>

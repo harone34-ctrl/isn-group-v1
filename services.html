@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nos Services — ISN Group</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="logo">
+            <svg class="site-logo-icon" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6 4H26V18C26 23.5 16 28 16 28C16 28 6 23.5 6 18V4Z" stroke="#C9A227" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M11 10H21" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+                <path d="M11 15H21" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+                <path d="M11 20H17" stroke="#C9A227" stroke-width="2" stroke-linecap="round"/>
+                <circle cx="21" cy="20" r="1.5" fill="#C9A227"/>
+            </svg>
+            <span>ISN GROUP</span>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="a-propos.html">À propos</a></li>
+                <li><a href="services.html" class="active">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="page-hero">
+            <span class="hero-badge">Prestations</span>
+            <h1>Des solutions adaptées à vos besoins</h1>
+            <p>Du support matériel à la conception web, nous couvrons l'intégralité de vos besoins informatiques.</p>
+        </section>
+
+        <section class="services-grid-section">
+            <h2>Nos Domaines d'Expertise</h2>
+            <div class="services-grid">
+
+                <div class="service-card" id="maintenance">
+                    <span class="card-icon">🛠️</span>
+                    <h3>Support &amp; Maintenance Hardware</h3>
+                    <p>Diagnostic, dépannage, nettoyage et optimisation de parcs informatiques ou de configurations spécifiques.</p>
+                    <ul class="service-list">
+                        <li>Assemblage sur-mesure : stations de calcul, architectures Ryzen HEDT &amp; Threadripper</li>
+                        <li>Stress-test intensif des composants (Prime95, FurMark, MemTest86)</li>
+                        <li>Gestion thermique avancée : watercooling, pâte conductrice, flux d'air optimisé</li>
+                    </ul>
+                </div>
+
+                <div class="service-card" id="reseau">
+                    <span class="card-icon">🛡️</span>
+                    <h3>Réseaux &amp; Sécurité</h3>
+                    <p>Audits de sécurité, installation de routeurs, pare-feu et sécurisation de vos accès locaux et distants.</p>
+                    <ul class="service-list">
+                        <li>Configuration de routeurs et pare-feu (pfSense, UniFi, Ubiquiti)</li>
+                        <li>Sécurisation et segmentation des réseaux Wi-Fi professionnels</li>
+                        <li>Brassage et câblage structuré de baies informatiques</li>
+                    </ul>
+                </div>
+
+                <div class="service-card" id="hebergement">
+                    <span class="card-icon">☁️</span>
+                    <h3>Hébergement &amp; Solutions Cloud</h3>
+                    <p>Mise en place de sauvegardes automatisées et gestion d'infrastructures serveurs adaptées à votre activité.</p>
+                    <ul class="service-list">
+                        <li>Sauvegardes automatisées et externalisées sur NAS (Synology, QNAP)</li>
+                        <li>Administration de serveurs dédiés Linux &amp; Windows Server</li>
+                        <li>Supervision et monitoring d'infrastructure 24/7</li>
+                    </ul>
+                </div>
+
+                <div class="service-card" id="web">
+                    <span class="card-icon">🌐</span>
+                    <h3>Conception de Sites &amp; Maquettes</h3>
+                    <p>Développement de vitrines web modernes, légères et optimisées pour votre visibilité locale.</p>
+                    <ul class="service-list">
+                        <li>Vitrines HTML5/CSS3 responsive, mobile-first et accessibles</li>
+                        <li>Optimisation SEO locale et performances (Core Web Vitals)</li>
+                        <li>Hébergement HTTPS avec CDN et certificat SSL inclus</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="pricing-section">
+            <span class="hero-badge">Tarification</span>
+            <h2>Des tarifs transparents et maîtrisés</h2>
+            <p>Parce que la confiance repose sur la clarté, nous appliquons des tarifs transparents adaptés aux besoins des professionnels et des TPE.</p>
+            <div class="pricing-table-wrap">
+                <table class="pricing-table">
+                    <thead>
+                        <tr>
+                            <th>Prestation</th>
+                            <th>Détail de l'intervention</th>
+                            <th>Tarif indicatif</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Forfait Diagnostic</td>
+                            <td>Recherche de panne hardware ou réseau (offert si réparation)</td>
+                            <td>39 € HT</td>
+                        </tr>
+                        <tr>
+                            <td>Maintenance Curative</td>
+                            <td>Remplacement de composants, désinfection, réinstallation OS</td>
+                            <td>59 € HT / heure</td>
+                        </tr>
+                        <tr>
+                            <td>Intégration Hardware</td>
+                            <td>Assemblage de station de calcul, stress-test de charge complet</td>
+                            <td>149 € HT</td>
+                        </tr>
+                        <tr>
+                            <td>Infogérance Poste (MSP)</td>
+                            <td>Supervision proactive, support à distance, correctifs de sécurité</td>
+                            <td>29 € HT / mois / poste</td>
+                        </tr>
+                        <tr>
+                            <td>Infogérance Serveur</td>
+                            <td>Monitoring 24/7, gestion des accès, sauvegardes externalisées</td>
+                            <td>149 € HT / mois / serveur</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="features-section">
+            <span class="hero-badge">Processus</span>
+            <h2>Comment nous travaillons</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">1</div>
+                    <h3>Audit &amp; Analyse</h3>
+                    <p>Analyse complète de votre infrastructure matérielle et logicielle pour identifier les goulots d'étranglement et les risques.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">2</div>
+                    <h3>Déploiement Propre</h3>
+                    <p>Intégration rigoureuse des composants et configurations réseau, sans interruption de votre activité.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">3</div>
+                    <h3>Suivi Continu</h3>
+                    <p>Maintenance préventive régulière et support technique réactif pour anticiper la moindre panne informatique.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <h3>Un besoin matériel ou un projet d'infrastructure ?</h3>
+            <p>Étudions ensemble la configuration idéale pour votre entreprise.</p>
+            <a href="contact.html" class="btn-gold">Demander une étude gratuite</a>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-main">
+            <div class="footer-col">
+                <span class="footer-brand">ISN GROUP</span>
+                <p>Support &amp; expertise informatique de proximité. Assemblage haute performance, maintenance hardware et services managés pour professionnels et particuliers.</p>
+            </div>
+            <div class="footer-col">
+                <span class="footer-col-title">Navigation</span>
+                <ul class="footer-nav">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="a-propos.html">À propos</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <span class="footer-col-title">Légal &amp; Contact</span>
+                <ul class="footer-nav">
+                    <li><a href="mentions-legales.html">Mentions légales</a></li>
+                    <li><a href="contact.html">Formulaire de contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 ISN Group — Support &amp; Expertise IT — Tous droits réservés</p>
+        </div>
+    </footer>
+
+</body>
+</html>
