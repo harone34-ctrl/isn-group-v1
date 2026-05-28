@@ -559,6 +559,16 @@ a:hover {
   color: var(--gold);
 }
 
+.footer-tagline {
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  color: var(--gold);
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  margin-top: -8px;
+}
+
 .footer-col-title {
   font-size: 11px;
   font-weight: 700;
@@ -801,7 +811,7 @@ a:hover {
   width: 100%;
   border-collapse: collapse;
   font-size: 14px;
-  min-width: 560px;
+  min-width: 600px;
   text-align: left;
 }
 
